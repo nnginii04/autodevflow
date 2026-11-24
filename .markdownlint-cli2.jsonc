@@ -1,0 +1,12 @@
+{
+  // 한국어 문서와 넓은 표를 쓰므로 일부 규칙을 완화합니다.
+  "config": {
+    "default": true,
+    "MD013": false,          // 줄 길이 제한 없음
+    "MD024": { "siblings_only": true }, // 다른 장의 같은 소제목 허용
+    "MD033": false,          // <br/> 등 HTML 허용
+    "MD036": false,          // 굵은 글씨 단락 허용
+    "MD060": false           // 표 열 정렬 스타일 강제하지 않음
+  },
+  "ignores": ["node_modules/**", ".github/pull_request_template.md"]
+}

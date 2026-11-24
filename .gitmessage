@@ -1,0 +1,9 @@
+
+# <type>(<scope>): <무엇을 했는지, 50자 이내>
+#
+# type: docs | feat | fix | test | refactor | data | exp | chore
+# scope: analysis | related-work | spec | dataset | core | trace | change | verify | eval | adr | retro
+#
+# 본문: 왜 했는지, 무엇이 달라졌는지 (72자에서 줄바꿈)
+#
+# 꼬리말: Refs #이슈번호  또는  Closes #이슈번호

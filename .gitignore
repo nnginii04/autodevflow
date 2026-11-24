@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# C / C++ build
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.out
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Large or temporary experiment outputs (commit summarized results only)
+eval/runs/
+*.log

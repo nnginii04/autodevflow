@@ -1,0 +1,34 @@
+name: 결함
+description: 코드, 데이터, 문서에서 발견한 오류
+title: "[결함] "
+labels: ["type:defect"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 현상
+      description: 무엇이 기대와 다르게 동작했는지 적습니다.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 재현 방법
+      description: 커밋 SHA, 입력, 실행 명령을 포함합니다.
+      value: |
+        - 커밋:
+        - 입력:
+        - 명령:
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 결과
+    validations:
+      required: true
+  - type: textarea
+    id: cause
+    attributes:
+      label: 원인 분석 (해결 후 작성)
+      description: 원인과 영향 범위, 같은 유형의 결함을 막기 위한 조치

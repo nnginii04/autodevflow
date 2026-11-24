@@ -1,0 +1,27 @@
+name: 결정
+description: 방향 전환이나 대안 선택이 필요한 논의 (결론이 나면 ADR로 기록)
+title: "[결정] "
+labels: ["type:decision"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: 배경
+      description: 왜 결정이 필요한지 적습니다.
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: 선택지
+      description: 각 선택지의 장단점을 적습니다.
+      value: |
+        1.
+        2.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 결론 (결정 후 작성)
+      description: 선택한 안과 이유, 작성한 ADR 번호
