@@ -12,7 +12,7 @@ AutoDevFlow는 자동차 SW를 자동으로 만들어 주는 도구가 아닙니
 
 | 순서 | 산출물 | 목적 | 상태 | 문서 |
 | --- | --- | --- | --- | --- |
-| 01 | 자동차 개발 업무 분석서 | 자동화 대상 업무 선정 | 초안 완료, 현업 확인 진행 예정 | [docs/01-work-analysis.md](docs/01-work-analysis.md) |
+| 01 | 자동차 개발 업무 분석서 | 자동화 대상 업무 선정 | v1.1, 실증 문헌 검증 반영 | [docs/01-work-analysis.md](docs/01-work-analysis.md) |
 | 02 | 기존 솔루션 및 선행 연구 분석서 | 프로젝트 차별화 근거 확보 | 예정 | |
 | 03 | 자동 전조등 시스템 요구사항 명세서 | 실험 대상 정의 | 예정 | |
 | 04 | 설계·코드·시험 기준 데이터셋 | 검증 환경 구축 | 예정 | |
@@ -58,3 +58,4 @@ autodevflow/
 | [ADR-0002](decisions/0002-deterministic-first.md) | 결정론적 처리를 우선하고 LLM은 의미 해석에만 사용 |
 | [ADR-0003](decisions/0003-first-mvp-change-verification.md) | 첫 MVP를 변경 영향도 분석과 변경 후 검증으로 선정 |
 | [ADR-0004](decisions/0004-github-as-source-of-record.md) | 프로젝트 기록의 원본은 GitHub, 블로그는 종료 후 정리 |
+| [ADR-0005](decisions/0005-empirical-literature-instead-of-interview.md) | 현업 인터뷰 대신 실증 문헌으로 업무 분석 검증 |
